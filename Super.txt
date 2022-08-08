@@ -1,0 +1,5 @@
+				+-~-~-~-~-~-+
+				|==>Super<==|
+				+-~-~-~-~-~-+
+
+Notice the use of the keyword super within the Reptile class constructor. The keyword super is used to reference the parent class within the context of the child class. When used in a constructor, as we have done, this is a reference to the parameterized constructor in the Animal class that takes a String and int argument.

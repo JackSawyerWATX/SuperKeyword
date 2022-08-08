@@ -1,0 +1,72 @@
+			+-~-~-~-~-~-~-~-~-~+
+			|==>Constructors<==|
+			+~-~-~-~-~-~-~-~-~-+
+
+Q. What is a constructor?
+
+A. A constructor is just like a method that is used to initialize the state of an object. It is invoked at the time of the object creation.
+
+
+Q. What is the "super" keyword?
+
+A. The super keyword is used to invoke the overridden method, which overrides one of its superclass methods. This keyword allows to access overridden methods and alos to access hidden members of the superclass.
+It also forwards a call from a constructor, to a constructor in the superclass.
+
+
+Q. What is the "this" keyword?
+
+A. The "this" keyword refers to the current instance of the class.
+
+
+Q. What is required to use to super keyword?
+
+A. Inheritance as the super refers to the superclass, or parent class.
+
+
+Q. Useages of the "this" keyword in Java?
+
+A. There are 6 useages...
+	1) this can be used to refer to the current class instance 			variable
+	2) this can be used to implicitly invoke a current class 			method
+	3) this() can be used to invoke a current class constructor
+	4) this can be passed in an argument in a method call
+	5) this can be passed in as arguemtents in the constructor call
+	6) this can be used to return the current class instance from a 		method
+
+
+Q. When can a super be used?
+
+A. Super can be used to...
+	1) refer to the immediate parent class instance variable
+	2) invoke immediate parent class method
+	3) super() can be used to invoke immediate parent class 			constructor.
+
+
+Q. Where must a super be located in a constructor?
+
+A. It MUST be in the first line within the subclass, or child class, constructor.
+
+
+Q. Java provides a ___________________ if one is not provided.
+
+A. default constructor
+
+
+Q. When is a constructor called?
+
+A. During the instantiation of a new object
+
+
+Q. How do you code a no argument constructor?
+
+A. public ClassName() {
+	}
+
+
+Q. What is the difference between a constructor and a method?
+
+A. 	1) Constructors do not have return types whereas methods must 		have return types
+	2) Constructors are used to initialize the state of an object. 		Whereas methods are used to expose the behaviour of the 		object.
+	3) Constructors invoke implicitly (meaning done by the JVM ro 		tools). Methods are invoked explicitly (meaning done by 		the developer)
+	4) Java will provide a default constructor if we do not provide 		one as developers. Developers must always create the 			methods.
+	5) The constructor must always have the same name as the class.		The name of the method does not have to be the same as 		the class.
